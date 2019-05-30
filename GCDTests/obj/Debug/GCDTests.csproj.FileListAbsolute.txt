@@ -1,0 +1,10 @@
+F:\RiderProjects\GCDTests\GCDTests\bin\Debug\GCDTests.exe
+F:\RiderProjects\GCDTests\GCDTests\bin\Debug\GCDTests.pdb
+F:\RiderProjects\GCDTests\GCDTests\bin\Debug\Meta.Numerics.dll
+F:\RiderProjects\GCDTests\GCDTests\bin\Debug\Meta.Numerics.pdb
+F:\RiderProjects\GCDTests\GCDTests\bin\Debug\Meta.Numerics.xml
+F:\RiderProjects\GCDTests\GCDTests\obj\Debug\GCDTests.csprojAssemblyReference.cache
+F:\RiderProjects\GCDTests\GCDTests\obj\Debug\GCDTests.csproj.CoreCompileInputs.cache
+F:\RiderProjects\GCDTests\GCDTests\obj\Debug\GCDTests.csproj.CopyComplete
+F:\RiderProjects\GCDTests\GCDTests\obj\Debug\GCDTests.exe
+F:\RiderProjects\GCDTests\GCDTests\obj\Debug\GCDTests.pdb

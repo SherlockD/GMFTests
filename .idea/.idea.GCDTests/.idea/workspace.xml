@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5457eab-f249-4551-9bdc-481405192ab6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1588576285">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="TestsCall" value="1" />
+          <entry key="cs" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="24" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="TestsCall" value="305" />
+          <entry key="cs" value="4753" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="4753" />
+          <entry key="PLAIN_TEXT" value="305" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCDTests/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="118" />
+              <folding>
+                <marker date="1559219738496" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+                <marker date="1559219738496" expanded="true" signature="95:124" ph="..." />
+                <marker date="1559219738496" expanded="true" signature="144:529" ph="{...}" />
+                <marker date="1559219738496" expanded="true" signature="173:527" ph="{...}" />
+                <marker date="1559219738496" expanded="true" signature="226:365" ph="{...}" />
+                <marker date="1559219738496" expanded="true" signature="424:521" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCDTests/Tests/NonOverlappingTemplateMatchingTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+              <folding>
+                <marker date="1559219873550" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+                <marker date="1559219873550" expanded="true" signature="95:193" ph="..." />
+                <marker date="1559219873550" expanded="true" signature="219:2212" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="288:2210" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="378:390" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="525:1401" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="734:823" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="929:1013" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="1477:1909" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="1578:1871" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="1645:1716" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="1791:1857" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="1974:2204" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="2032:2168" ph="{...}" />
+                <marker date="1559219873550" expanded="true" signature="2084:2154" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCDTests/Tests/RunsTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1559218290216" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+                <marker date="1559218290216" expanded="false" signature="95:133" ph="..." />
+                <marker date="1559218290216" expanded="true" signature="159:1116" ph="{...}" />
+                <marker date="1559218290216" expanded="true" signature="202:1114" ph="{...}" />
+                <marker date="1559218290216" expanded="true" signature="266:278" ph="{...}" />
+                <marker date="1559218290216" expanded="true" signature="384:1108" ph="{...}" />
+                <marker date="1559218290216" expanded="true" signature="564:622" ph="{...}" />
+                <marker date="1559218290216" expanded="true" signature="699:934" ph="{...}" />
+                <marker date="1559218290216" expanded="true" signature="765:832" ph="{...}" />
+                <marker date="1559218290216" expanded="true" signature="853:920" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCDTests/Tests/SpectralTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1559218296297" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+                <marker date="1559218296297" expanded="false" signature="95:152" ph="..." />
+                <marker date="1559218296297" expanded="true" signature="178:1409" ph="{...}" />
+                <marker date="1559218296297" expanded="true" signature="225:1407" ph="{...}" />
+                <marker date="1559218296297" expanded="true" signature="293:305" ph="{...}" />
+                <marker date="1559218296297" expanded="true" signature="415:1401" ph="{...}" />
+                <marker date="1559218296297" expanded="true" signature="553:650" ph="{...}" />
+                <marker date="1559218296297" expanded="true" signature="848:915" ph="{...}" />
+                <marker date="1559218296297" expanded="true" signature="1080:1200" ph="{...}" />
+                <marker date="1559218296297" expanded="true" signature="1124:1186" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCDTests/Tests/TestForThelongestRunOfOnesInABlock.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding>
+                <marker date="1559218300686" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+                <marker date="1559218300686" expanded="false" signature="95:167" ph="..." />
+                <marker date="1559218300686" expanded="true" signature="193:2984" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="224:286" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="358:2982" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="448:460" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="822:1929" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="961:1041" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="1158:1251" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="2026:2976" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="2123:2938" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="2168:2924" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="2286:2388" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="2527:2629" ph="{...}" />
+                <marker date="1559218300686" expanded="true" signature="2768:2870" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCDTests/AbstractTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <marker date="1559218306728" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+                <marker date="1559218306728" expanded="false" signature="95:141" ph="..." />
+                <marker date="1559218306728" expanded="true" signature="161:462" ph="{...}" />
+                <marker date="1559218306728" expanded="true" signature="202:460" ph="{...}" />
+                <marker date="1559218306728" expanded="true" signature="301:363" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCDTests/Tests/FrequencyMonobit.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="3" selection-end-column="2" />
+              <folding>
+                <marker date="1559218254263" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+                <marker date="1559218254263" expanded="true" signature="95:133" ph="..." />
+                <marker date="1559218254263" expanded="true" signature="159:788" ph="{...}" />
+                <marker date="1559218254263" expanded="true" signature="210:786" ph="{...}" />
+                <marker date="1559218254263" expanded="true" signature="354:366" ph="{...}" />
+                <marker date="1559218254263" expanded="true" signature="416:773" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCDTests/Tests/FrequencyTestWithinABlock.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <marker date="1559218279183" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+                <marker date="1559218279183" expanded="false" signature="95:133" ph="..." />
+                <marker date="1559218279183" expanded="true" signature="159:992" ph="{...}" />
+                <marker date="1559218279183" expanded="true" signature="219:990" ph="{...}" />
+                <marker date="1559218279183" expanded="true" signature="300:312" ph="{...}" />
+                <marker date="1559218279183" expanded="true" signature="438:984" ph="{...}" />
+                <marker date="1559218279183" expanded="true" signature="546:677" ph="{...}" />
+                <marker date="1559218279183" expanded="true" signature="747:829" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCDTests/ArrayExtension.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <marker date="1559218311536" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+                <marker date="1559218311536" expanded="true" signature="95:136" ph="..." />
+                <marker date="1559218311536" expanded="true" signature="156:2307" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="189:227" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="266:2305" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="367:984" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="445:946" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="557:663" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="794:900" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="1049:1554" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="1170:1516" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="1216:1283" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="1304:1502" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="1364:1450" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="1613:2299" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="1917:2262" ph="{...}" />
+                <marker date="1559218311536" expanded="true" signature="2014:2166" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GCDTests/TestsCall">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GCDTests/Tests/FrequencyTestWithinABlock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GCDTests/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GCDTests/Tests/NonOverlappingTemplateMatchingTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GCDTests/AbstractTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GCDTests/ArrayExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GCDTests/Tests/RunsTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GCDTests/Tests/SpectralTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GCDTests/Tests/FrequencyMonobit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GCDTests/Tests/TestForThelongestRunOfOnesInABlock.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GCDTests/ITest.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/Tests/Runs Test.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/Tests/FrequencyMonobit.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/Tests/FrequencyTestWithinABlock.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/Tests/RunsTest.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/Tests/SpectralTest.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/Tests/TestForThelongestRunOfOnesInABlock.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/AbstractTest.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/ArrayExtension.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/Program.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/Tests/NonOverlappingTemplateMatchingTest.cs" />
+        <option value="$PROJECT_DIR$/GCDTests/TestsCall" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-145" />
+    <option name="y" value="-18" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GCDTests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GCDTests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GCDTests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GCDTests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GCDTests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="GCDTests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="GCDTests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/GCDTests/bin/Debug/GCDTests.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GCDTests/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/GCDTests/GCDTests.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5457eab-f249-4551-9bdc-481405192ab6" name="Default Changelist" comment="" />
+      <created>1559199509858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559199509858</updated>
+      <workItem from="1559199514506" duration="14181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14181000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GCDTests/ITest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/Tests/Runs Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/Tests/FrequencyTestWithinABlock.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1559218279183" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+            <marker date="1559218279183" expanded="false" signature="95:133" ph="..." />
+            <marker date="1559218279183" expanded="true" signature="159:992" ph="{...}" />
+            <marker date="1559218279183" expanded="true" signature="219:990" ph="{...}" />
+            <marker date="1559218279183" expanded="true" signature="300:312" ph="{...}" />
+            <marker date="1559218279183" expanded="true" signature="438:984" ph="{...}" />
+            <marker date="1559218279183" expanded="true" signature="546:677" ph="{...}" />
+            <marker date="1559218279183" expanded="true" signature="747:829" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/Tests/TestForThelongestRunOfOnesInABlock.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <marker date="1559218300686" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+            <marker date="1559218300686" expanded="false" signature="95:167" ph="..." />
+            <marker date="1559218300686" expanded="true" signature="193:2984" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="224:286" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="358:2982" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="448:460" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="822:1929" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="961:1041" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="1158:1251" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="2026:2976" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="2123:2938" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="2168:2924" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="2286:2388" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="2527:2629" ph="{...}" />
+            <marker date="1559218300686" expanded="true" signature="2768:2870" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/ArrayExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <marker date="1559218311536" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+            <marker date="1559218311536" expanded="true" signature="95:136" ph="..." />
+            <marker date="1559218311536" expanded="true" signature="156:2307" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="189:227" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="266:2305" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="367:984" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="445:946" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="557:663" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="794:900" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="1049:1554" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="1170:1516" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="1216:1283" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="1304:1502" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="1364:1450" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="1613:2299" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="1917:2262" ph="{...}" />
+            <marker date="1559218311536" expanded="true" signature="2014:2166" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/Tests/NonOverlappingTemplateMatchingTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <folding>
+            <marker date="1559219873550" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+            <marker date="1559219873550" expanded="true" signature="95:193" ph="..." />
+            <marker date="1559219873550" expanded="true" signature="219:2212" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="288:2210" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="378:390" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="525:1401" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="734:823" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="929:1013" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="1477:1909" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="1578:1871" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="1645:1716" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="1791:1857" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="1974:2204" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="2032:2168" ph="{...}" />
+            <marker date="1559219873550" expanded="true" signature="2084:2154" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="118" />
+          <folding>
+            <marker date="1559219738496" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+            <marker date="1559219738496" expanded="true" signature="95:124" ph="..." />
+            <marker date="1559219738496" expanded="true" signature="144:529" ph="{...}" />
+            <marker date="1559219738496" expanded="true" signature="173:527" ph="{...}" />
+            <marker date="1559219738496" expanded="true" signature="226:365" ph="{...}" />
+            <marker date="1559219738496" expanded="true" signature="424:521" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/Tests/RunsTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1559218290216" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+            <marker date="1559218290216" expanded="false" signature="95:133" ph="..." />
+            <marker date="1559218290216" expanded="true" signature="159:1116" ph="{...}" />
+            <marker date="1559218290216" expanded="true" signature="202:1114" ph="{...}" />
+            <marker date="1559218290216" expanded="true" signature="266:278" ph="{...}" />
+            <marker date="1559218290216" expanded="true" signature="384:1108" ph="{...}" />
+            <marker date="1559218290216" expanded="true" signature="564:622" ph="{...}" />
+            <marker date="1559218290216" expanded="true" signature="699:934" ph="{...}" />
+            <marker date="1559218290216" expanded="true" signature="765:832" ph="{...}" />
+            <marker date="1559218290216" expanded="true" signature="853:920" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/Tests/SpectralTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1559218296297" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+            <marker date="1559218296297" expanded="false" signature="95:152" ph="..." />
+            <marker date="1559218296297" expanded="true" signature="178:1409" ph="{...}" />
+            <marker date="1559218296297" expanded="true" signature="225:1407" ph="{...}" />
+            <marker date="1559218296297" expanded="true" signature="293:305" ph="{...}" />
+            <marker date="1559218296297" expanded="true" signature="415:1401" ph="{...}" />
+            <marker date="1559218296297" expanded="true" signature="553:650" ph="{...}" />
+            <marker date="1559218296297" expanded="true" signature="848:915" ph="{...}" />
+            <marker date="1559218296297" expanded="true" signature="1080:1200" ph="{...}" />
+            <marker date="1559218296297" expanded="true" signature="1124:1186" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/AbstractTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <marker date="1559218306728" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+            <marker date="1559218306728" expanded="false" signature="95:141" ph="..." />
+            <marker date="1559218306728" expanded="true" signature="161:462" ph="{...}" />
+            <marker date="1559218306728" expanded="true" signature="202:460" ph="{...}" />
+            <marker date="1559218306728" expanded="true" signature="301:363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/Tests/FrequencyMonobit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="2" />
+          <folding>
+            <marker date="1559218254263" expanded="true" signature="0:87" ph="/* Copyright (C) 2019 Dmitry Andreev ... */" />
+            <marker date="1559218254263" expanded="true" signature="95:133" ph="..." />
+            <marker date="1559218254263" expanded="true" signature="159:788" ph="{...}" />
+            <marker date="1559218254263" expanded="true" signature="210:786" ph="{...}" />
+            <marker date="1559218254263" expanded="true" signature="354:366" ph="{...}" />
+            <marker date="1559218254263" expanded="true" signature="416:773" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCDTests/TestsCall">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

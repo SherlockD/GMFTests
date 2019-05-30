@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="\2687ca29" t="IncludeRecursive" />
+    <e p="\app" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_GCDTests.2059353702.00" t="ExcludeRecursive" />
+    <e p="F:\RiderProjects\GCDTests" t="IncludeFlat">
+      <e p="GCDTests" t="IncludeRecursive">
+        <e p="AbstractTest.cs" t="Include" />
+        <e p="ArrayExtension.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GCDTests.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Tests" t="Include">
+          <e p="FrequencyMonobit.cs" t="Include" />
+          <e p="FrequencyTestWithinABlock.cs" t="Include" />
+          <e p="NonOverlappingTemplateMatchingTest.cs" t="Include" />
+          <e p="RunsTest.cs" t="Include" />
+          <e p="SpectralTest.cs" t="Include" />
+          <e p="TestForThelongestRunOfOnesInABlock.cs" t="Include" />
+        </e>
+        <e p="TestsCall" t="Include" />
+      </e>
+      <e p="GCDTests.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

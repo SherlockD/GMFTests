@@ -1,0 +1,717 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Polenter.Mcm</name>
+    </assembly>
+    <members>
+        <member name="T:Polenter.Mcm.MessageSubscriberAttribute">
+            <summary>
+            Possible only for, the method will be attached to the subscriber list of the message channel
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.MessageSubscriberAttribute.#ctor(System.String)">
+            <summary>
+            </summary>
+            <param name="messageChannelName">MessageChannel broadcasting the messages</param>
+        </member>
+        <member name="M:Polenter.Mcm.MessageSubscriberAttribute.#ctor(System.String,Polenter.Mcm.UIThreadSynchronizationMode)">
+            <summary>
+            </summary>
+            <param name="messageChannelName">MessageChannel broadcasting the messages</param>
+            <param name="uiThreadSynchronizationMode">Should the method be invoked in the original thead or in the UI thread</param>
+        </member>
+        <member name="P:Polenter.Mcm.MessageSubscriberAttribute.MessageChannelName">
+            <summary>
+             MessageChannel broadcasting the messages
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.MessageSubscriberAttribute.UIThreadSynchronizationMode">
+            <summary>
+             In which thread the method will be invoked. 
+             Default is no synchronization, so the method will be invoked
+             in the internal thread of the message channel.
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.ComponentInfo">
+            <summary>
+            Stores information under what key was the component stored in the container
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.Advanced.AsyncQueueEventHandler`1">
+            <summary>
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <typeparam name="TItem"></typeparam>
+        </member>
+        <member name="T:Polenter.Mcm.Advanced.SimpleQueue">
+            <summary>
+            Wrapper on the .NET Queue supporting IQueue
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.Advanced.IQueue">
+            <summary>
+            Could be a memory queue or a persistent one. 
+            Thread safety is not required.
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.IQueue.Enqueue(System.Object)">
+            <summary>
+             Adds one element at the end of the queue
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.IQueue.Dequeue">
+            <summary>
+             Gets the first item from the queue and removes it from the queue
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.IQueue.Clear">
+            <summary>
+             Clears the queue
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.IQueue.ToArray">
+            <summary>
+             Gets all items as an array but does not clear the queue
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Polenter.Mcm.Advanced.IQueue.Count">
+            <summary>
+             How many items there are in the queue
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.SimpleQueue.Enqueue(System.Object)">
+            <summary>
+            Adds one item to the queue
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.SimpleQueue.Dequeue">
+            <summary>
+            
+            </summary>
+            <returns>null if there is nothing more on the queue</returns>
+        </member>
+        <member name="T:Polenter.Mcm.MessageEventHandler">
+            <summary>
+             New message is arrived
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:Polenter.Mcm.CommandEventArgs`1">
+            <summary>
+             Contains Command
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.CommandEventArgs`1.#ctor(`0)">
+            <summary>
+            </summary>
+            <param name="command"></param>
+        </member>
+        <member name="P:Polenter.Mcm.CommandEventArgs`1.Command">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.CommandEventHandler`1">
+            <summary>
+             Invoked after a command was executed
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <typeparam name="TCommand"></typeparam>
+        </member>
+        <member name="T:Polenter.Mcm.MessageInvokerGroup">
+            <summary>
+            Each message channel has its own invoker group.
+            The group contains invokers. There is so many invokers
+            as many subscribed methods.
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.MessageInvokerGroup.Name">
+            <summary>
+            Message channel name
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.MessageInvoker">
+            <summary>
+            Contains information about invoking the subscriber method
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.MessageInvoker.MessageType">
+            <summary>
+            For which message type should the method be invoked
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.MessageInvoker.MethodInfo">
+            <summary>
+            Which method should be invoked
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.MessageInvoker.InvokerObject">
+            <summary>
+            The host object of the method
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.MessageInvoker.UiThreadSynchronizationMode">
+            <summary>
+            In which thread should the method be invoked.
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.MessageEventArgs">
+            <summary>
+             Contains Message
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.MessageEventArgs.#ctor(System.Object)">
+            <summary>
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="P:Polenter.Mcm.MessageEventArgs.Message">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.Advanced.AsyncQueue`1">
+            <summary>
+            Items are enqued on any thread, but dequeing runs
+            on an intenal thread. All items are dequed one after another
+            on the internal thread.
+            </summary>
+            <typeparam name="TItem"></typeparam>
+        </member>
+        <member name="F:Polenter.Mcm.Advanced.AsyncQueue`1.TraceLogName">
+            <summary>
+             Default name for the trace log
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.AsyncQueue`1.#ctor(System.String)">
+            <summary>
+            </summary>
+            <param name="name">is used for logging</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.AsyncQueue`1.#ctor(System.String,Polenter.Mcm.Advanced.IQueue)">
+            <summary>
+            </summary>
+            <param name="name">is used for logging</param>
+            <param name="syncqueue">internal queue, eg. MSMQ or a persisted one</param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.AsyncQueue`1.Dispose">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.AsyncQueue`1.Enqueue(`0)">
+            <summary>
+            Adds item to the queue asynchronously
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.AsyncQueue`1.Clear">
+            <summary>
+            Clear the queue
+            </summary>
+            <returns>what items have been cleared</returns>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.AsyncQueue`1.ToArray">
+            <summary>
+            Get all items as an array. Is multithread secure
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.AsyncQueue`1.Start">
+            <summary>
+            Starts the work
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.AsyncQueue`1.Stop">
+            <summary>
+            Stops the queue asynchronously
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.Advanced.AsyncQueue`1.IsWorking">
+            <summary>
+             Is waiting for new items
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.Advanced.AsyncQueue`1.Name">
+            <summary>
+             Name is used for logging and for debugging
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.Advanced.AsyncQueue`1.StopRequested">
+            <summary>
+             Stop() was executed
+            </summary>
+        </member>
+        <member name="E:Polenter.Mcm.Advanced.AsyncQueue`1.ItemDequeued">
+            <summary>
+             Invoked when an item is dequed
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.MessageChannel">
+            <summary>
+             Queues messages on an internal thread and brodcasts them one after another on this thread.
+            </summary>
+        </member>
+        <member name="F:Polenter.Mcm.MessageChannel.TraceLogName">
+            <summary>
+             Default name for the trace log
+            </summary>
+        </member>
+        <member name="F:Polenter.Mcm.MessageChannel._queue">
+            <summary>
+            Internal queue queueing items asynchronously and
+            dequeing them on the internal thread.
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.MessageChannel.#ctor(System.String)">
+            <summary>
+            </summary>
+            <param name="name">must be the same as in the MessageSubscriberAttribute</param>
+        </member>
+        <member name="M:Polenter.Mcm.MessageChannel.#ctor(System.String,Polenter.Mcm.Advanced.IQueue)">
+            <summary>
+            </summary>
+            <param name="name">must be the same as in the MessageSubscriberAttribute</param>
+            <param name="queue">custom queue, eg. MSMQ or a persisted one</param>
+        </member>
+        <member name="M:Polenter.Mcm.MessageChannel.Dispose">
+            <summary>
+             Closes the message queue.
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.MessageChannel.Post(System.Object)">
+            <summary>
+            Adds asynchronously the message to the queue.
+            The message will be dequed on an internal thread
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Polenter.Mcm.MessageChannel.Open">
+            <summary>
+            Starts the message queue
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.MessageChannel.Close">
+            <summary>
+             Stops the message queue
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.MessageChannel.Clear">
+            <summary>
+             Clears the buffer and returns all not dequed messages
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Polenter.Mcm.MessageChannel.ToArray">
+            <summary>
+             Returns all not dequed messages from the queue.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Polenter.Mcm.MessageChannel.Name">
+            <summary>
+             must be the same as in the MessageSubscriberAttribute
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.MessageChannel.IsOpened">
+            <summary>
+             Get the working status of the queue
+            </summary>
+        </member>
+        <member name="E:Polenter.Mcm.MessageChannel.MessageArrived">
+            <summary>
+             Invoked when a posted message is dequed from the internal queue.
+             Internal queue runs on a private thread. Message on this thead are
+             dequed in the order they were posted.
+             Only one message at a time is dequed.
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.MessageBroadcast">
+            <summary>
+            Invokes the subscriber method and manages subscriber components
+            </summary>
+        </member>
+        <member name="F:Polenter.Mcm.MessageBroadcast._uiContext">
+            <summary>
+            Contains SynchronizationContext in which the class was creatd
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.MessageBroadcast.#ctor">
+            <summary>
+            Should be created in the UI thread (if any)
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.MessageBroadcast.Broadcast(System.Object,System.String)">
+            <summary>
+            Broadcast message to the channel
+            </summary>
+            <param name="message"></param>
+            <param name="channelName"></param>
+        </member>
+        <member name="M:Polenter.Mcm.MessageBroadcast.RegisterComponent(System.Object)">
+            <summary>
+            Subscribes methods to the message channel
+            </summary>
+            <param name="component"></param>
+        </member>
+        <member name="M:Polenter.Mcm.MessageBroadcast.Clear">
+            <summary>
+            Clears invoker groups
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.MessageBroadcast.InvokingArgument">
+            <summary>
+            Informs how the method should be invoked
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.Command`2">
+            <summary>
+            Each command contains Argument, Result and Error properties.
+            Use CommandAsyncExecutor to execute a Command asynchronously.
+            The command should not access external components and services directly.
+            The whole environment the command uses should be defined in the
+            Argument property. 
+            Such isolation makes unit tests possible. 
+            </summary>
+            <typeparam name="TArgument"></typeparam>
+            <typeparam name="TResult"></typeparam>
+        </member>
+        <member name="T:Polenter.Mcm.IMcmCommand">
+            <summary>
+            Is executed synchronously. Informs about the last error if any.
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.IMcmCommand.Execute">
+            <summary>
+            Executes the command synchronously
+            </summary>
+            <returns>false if there is an error occured</returns>
+        </member>
+        <member name="P:Polenter.Mcm.IMcmCommand.Error">
+            <summary>
+             Contains last error of the execution if  any
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.IMcmCommand.HasError">
+            <summary>
+             Informs if the last execution has finished with an error
+            </summary>
+        </member>
+        <member name="E:Polenter.Mcm.IMcmCommand.ExecuteCompleted">
+            <summary>
+             Invoked always after the execution. 
+             The property Error contains the last error if any.
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.Command`2.#ctor">
+            <summary>
+            Standard constructor
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.Command`2.#ctor(`0)">
+            <summary>
+            Constructor with an argument
+            </summary>
+            <param name="argument"></param>
+        </member>
+        <member name="M:Polenter.Mcm.Command`2.Execute">
+            <summary>
+            Start the command. Error and result are reset.
+            </summary>
+            <returns>false if there is an error occured</returns>
+        </member>
+        <member name="M:Polenter.Mcm.Command`2.ExecuteCore">
+            <summary>
+            try..catch is already implemented in the base class
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.Command`2.Argument">
+            <summary>
+             Any object can be the argument
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.Command`2.Result">
+            <summary>
+             Contains result after executing
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.Command`2.Error">
+            <summary>
+             Contains last error occured by the executing
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.Command`2.HasError">
+            <summary>
+             Tells if last executing has produced an error
+            </summary>
+        </member>
+        <member name="E:Polenter.Mcm.Command`2.ExecuteCompleted">
+            <summary>
+             Invoked after execution. Result contains the working result, Error - the last error if any.
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.AsyncOperationResponseMessage">
+            <summary>
+             Result of an async operation. Informs about an error and cancellation if any.
+             All asynchronous executed operations should post an inheritor of this
+             message to the message channel
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.AsyncOperationResponseMessage.#ctor">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.AsyncOperationResponseMessage.#ctor(System.Exception)">
+            <summary>
+            </summary>
+            <param name="error"></param>
+        </member>
+        <member name="M:Polenter.Mcm.AsyncOperationResponseMessage.#ctor(System.Exception,System.Boolean)">
+            <summary>
+            </summary>
+            <param name="error"></param>
+            <param name="cancelled"></param>
+        </member>
+        <member name="P:Polenter.Mcm.AsyncOperationResponseMessage.Error">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.AsyncOperationResponseMessage.Cancelled">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.AsyncOperationResponseMessage.HasError">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.MessageChannelFactory">
+            <summary>
+            Creates message channels using reflection
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.ComponentContainerWithSingleMessageChannel">
+            <summary>
+                Recommended for all simple scenarios. Contains only one single message channel.
+                This class is sealed.
+                For advanced scenario a descendant of ComponentContainer should be created containting more message channels
+                (i.e. for error broadcast or other important events)
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.ComponentContainer">
+            <summary>
+             Contains components. Components communicate using messages. 
+             This class is thread safe.
+             Create your custom ComponentContainer inherited from this one.
+             Create message channels and services as properties of your ComponentContainer inheritor.
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.#ctor">
+            <summary>
+             Creates message channel list from properties and fields using reflection.
+             starts internal threads for message queing.
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.Dispose">
+            <summary>
+             All Message channels are closed.
+             Components are not disposed. They should be disposed elsewhere.
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.PostMessage(System.Object,System.String)">
+            <summary>
+             Post message asynchronously to the channel with the selected name
+            </summary>
+            <param name="message"></param>
+            <param name="channelName"></param>
+            <exception cref="T:System.ArgumentNullException"></exception>
+            <exception cref="T:System.InvalidOperationException">when the channel with the name cannot be found</exception>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.Add``1(``0)">
+            <summary>
+             Add component with the type as the key
+            </summary>
+            <param name="component"></param>
+            <typeparam name="TKey"></typeparam>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.Add(System.Object,System.Type)">
+            <summary>
+             Add component with the type as the key
+            </summary>
+            <param name="component"></param>
+            <param name="key"></param>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.Remove``1">
+            <summary>
+             Remove component by its key
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <returns>true if sth was removed</returns>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.Remove(System.Type)">
+            <summary>
+             Remove component by its key
+            </summary>
+            <param name="key"></param>
+            <returns>true if sth was removed</returns>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.Clear">
+            <summary>
+             Clears the component list
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.Contains``1">
+            <summary>
+             Checks if component with the key exists
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.Contains(System.Type)">
+            <summary>
+            Check if a component with the key exists
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.FirstOrDefault``1">
+            <summary>
+             Get first found component implementing the type or null if the component was not found
+            </summary>
+            <typeparam name="TComponent"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.First``1">
+            <summary>
+             Get first found component implementing the type. If not found, an exception will be thrown.
+            </summary>
+            <typeparam name="TComponent"></typeparam>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException"></exception>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainer.Many``1">
+            <summary>
+             Get all components implementing the type, eg. all IDisposable components
+            </summary>
+            <typeparam name="TComponent"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="P:Polenter.Mcm.ComponentContainer.MessageChannels">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.ComponentContainer.Item(System.Type)">
+            <summary>
+             Get component with the key
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="F:Polenter.Mcm.ComponentContainerWithSingleMessageChannel.MessagesChannelName">
+            <summary>
+                Name of the Messages - message channel
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.ComponentContainerWithSingleMessageChannel.#ctor">
+            <summary>
+            </summary>
+        </member>
+        <member name="P:Polenter.Mcm.ComponentContainerWithSingleMessageChannel.Messages">
+            <summary>
+                Is used for the message broadcast
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.UIThreadSynchronizationMode">
+            <summary>
+             In which thead should the subscribed method be invoked
+            </summary>
+        </member>
+        <member name="F:Polenter.Mcm.UIThreadSynchronizationMode.IgnoreSynchronization">
+            <summary>
+            No synchronization occures. 
+            The method is invoked in the message channel internal thread.
+            </summary>
+        </member>
+        <member name="F:Polenter.Mcm.UIThreadSynchronizationMode.SendSynchronousInUIThread">
+            <summary>
+             Method is invoked in the UI thread and the message channel is blocked until the method returns.
+             Not recommended until the UI must change the message content. 
+             However changing the message content should be made in a component
+             and not in an UI control.
+            </summary>
+        </member>
+        <member name="F:Polenter.Mcm.UIThreadSynchronizationMode.PostAsynchronousInUIThread">
+            <summary>
+             Method is invoked in the UI thread without blocking the message channel.
+             This mode is recommended for UI actualizing.
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.MessageChannelCollection">
+            <summary>
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.MessageChannelCollection.#ctor">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.CommandAsyncExecutor`1">
+            <summary>
+            Executes commmands in the ThreadPool. 
+            After the work is finished invokes an event informing
+            about the result and an eventuall eror
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.CommandAsyncExecutor`1.ExecuteAsync(`0)">
+            <summary>
+             Start the command asynchronously. 
+             The event ExecuteCompleted is always invoked after execution 
+             informing about the result and an error if any.
+            </summary>
+            <param name="command"></param>
+        </member>
+        <member name="E:Polenter.Mcm.CommandAsyncExecutor`1.ExecuteCompleted">
+            <summary>
+             Invoked after the command was executed. 
+             Command itself informs about the result and an error if any.
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.Advanced.AsyncQueueEventArgs`1">
+            <summary>
+             Contains item dequeued from the AsyncQueue
+            </summary>
+            <typeparam name="TItem"></typeparam>
+        </member>
+        <member name="M:Polenter.Mcm.Advanced.AsyncQueueEventArgs`1.#ctor(`0)">
+            <summary>
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="P:Polenter.Mcm.Advanced.AsyncQueueEventArgs`1.Item">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.MessageInvokerGroupCollection">
+            <summary>
+            Invokers are grouped by the message channel name
+            </summary>
+        </member>
+        <member name="T:Polenter.Mcm.McmLog">
+            <summary>
+            Log is configured in app.config
+            Log.Default ist the default log for the whole framework
+            </summary>
+        </member>
+        <member name="M:Polenter.Mcm.McmLog.WriteCallingMethod(System.String,System.Diagnostics.TraceEventType)">
+            <summary>
+            Informs about the method, where it was called
+            </summary>
+            <param name="text"></param>
+            <param name="eventType"></param>
+        </member>
+    </members>
+</doc>
